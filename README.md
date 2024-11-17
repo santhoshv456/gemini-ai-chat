@@ -2,6 +2,7 @@
 # Gemini AI Chat Interface
 
 This is a simple Python-based interface to interact with Google's Gemini AI models. It supports both text and image inputs and provides a seamless chat experience. The app is hosted as a demo on [Hugging Face](https://huggingface.co/).
+
 ![Gemini AI Caht Interface](gemini.jpg)
 
 ## Features
