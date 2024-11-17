@@ -1,18 +1,20 @@
 
 # Gemini AI Chat Interface
 
-This is a simple Python-based interface to interact with Google's Gemini AI models. It supports both text and image inputs and provides a seamless chat experience. The app is hosted as a demo on [Hugging Face](https://huggingface.co).
+This is a simple Python-based interface to interact with Google's Gemini AI models. It supports both text and image inputs and provides a seamless chat experience. The app is hosted as a demo on [Hugging Face](https://huggingface.co/).
 
 ## Features
 
 - **Chat with Gemini Models**: Supports various Gemini models, including vision-enabled ones.
-- **Image Analysis**: Upload images to enhance the conversation with AI.
+- **Image Analysis**: Upload images to enhance the conversation with AI. Like with Flash 1.5
 - **Customizable Settings**: Adjust temperature, max tokens, and add system prompts for tailored interactions.
 - **Interactive UI**: Built with Streamlit for an intuitive user experience.
+- **Uee your own API-Key**
 
 ## Demo
 
-Try the app hosted on Hugging Face: [Gemini AI Chat](https://huggingface.co).
+Try the app hosted on Hugging Face: [Gemini AI Chat](https://huggingface.co/spaces/Alibrown/Gemini-Interface-2024).
+
 
 ## Setup Instructions
 
