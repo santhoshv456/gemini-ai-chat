@@ -1,5 +1,5 @@
 # Copyright Volkan Kücükbudak
-# Github: https://github.com/VolkanSah/Gemini-Interface-Python/
+# Github: https://github.com/volkansah
 import streamlit as st
 import google.generativeai as genai
 from PIL import Image
