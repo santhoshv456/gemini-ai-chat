@@ -133,3 +133,8 @@ with st.sidebar:
     ### Copyright
     Volkan Kücükbudak
     """)
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8501))  # Default Streamlit port
+    st.write(f"Running on port {port}")  # Debugging
+    st.run(port=port)
