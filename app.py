@@ -46,11 +46,11 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # File uploader for images
-uploaded_file = st.file_uploader("Upload an image (optional)", type=["jpg", "jpeg", "png"])
-uploaded_image = None
-if uploaded_file is not None:
-    uploaded_image = Image.open(uploaded_file).convert('RGB')
-    st.image(uploaded_image, caption="Uploaded Image", use_container_width=True)
+# uploaded_file = st.file_uploader("Upload an image (optional)", type=["jpg", "jpeg", "png"])
+# uploaded_image = None
+# if uploaded_file is not None:
+#     uploaded_image = Image.open(uploaded_file).convert('RGB')
+#     st.image(uploaded_image, caption="Uploaded Image", use_container_width=True)
 
 # Chat input
 user_input = st.chat_input("Type your message here...")
