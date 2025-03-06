@@ -10,18 +10,6 @@ import os
 st.set_page_config(page_title="Gemini AI Chat", layout="wide")
 
 st.title("🤖 Gemini AI Chat Interface")
-st.markdown("""
-**Welcome to the Gemini AI Chat Interface!**
-
-Chat seamlessly with Google's advanced Gemini AI models, supporting both text and image inputs.
-
-🔗 [GitHub Profile](https://github.com/volkansah) | 
-📂 [Project Repository](https://github.com/volkansah/gemini-ai-chat) | 
-💬 [Soon](https://aicodecraft.io)
-
-Follow me for more innovative projects and updates!
-""")
-
 
 def encode_image(image):
     """Convert PIL Image to base64 string"""
