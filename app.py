@@ -5,6 +5,7 @@ import google.generativeai as genai
 from PIL import Image
 import io
 import base64
+import os
 
 st.set_page_config(page_title="Gemini AI Chat", layout="wide")
 
