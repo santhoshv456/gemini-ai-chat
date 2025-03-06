@@ -69,20 +69,20 @@ if user_input and api_key:
         model_instance = genai.GenerativeModel(model_name=model)
         
         content = []
-        if uploaded_image:
-            # Convert image to base64
-            encoded_image = encode_image(uploaded_image)
-            content = [
-                {"text": user_input},
-                {
-                    "inline_data": {
-                        "mime_type": "image/jpeg",
-                        "data": encoded_image
-                    }
-                }
-            ]
-        else:
-            content = [{"text": user_input}]
+        # if uploaded_image:
+        #     # Convert image to base64
+        #     encoded_image = encode_image(uploaded_image)
+        #     content = [
+        #         {"text": user_input},
+        #         {
+        #             "inline_data": {
+        #                 "mime_type": "image/jpeg",
+        #                 "data": encoded_image
+        #             }
+        #         }
+        #     ]
+        # else:
+        content = [{"text": user_input}]
 
         # Generate response
         response = model_instance.generate_content(
