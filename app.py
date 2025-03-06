@@ -9,8 +9,6 @@ import os
 
 st.set_page_config(page_title="Gemini AI Chat", layout="wide")
 
-st.title("🤖 Gemini AI Chat Interface")
-
 def encode_image(image):
     """Convert PIL Image to base64 string"""
     buffered = io.BytesIO()
