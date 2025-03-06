@@ -108,17 +108,3 @@ if user_input and api_key:
 
 elif not api_key and user_input:
     st.warning("Please enter your API key in the sidebar first.")
-
-# Instructions in the sidebar
-with st.sidebar:
-    st.markdown("""
-    ## 📝 Instructions:
-    1. Enter your Google AI API key
-    2. Select a model (use vision models for image analysis)
-    3. Adjust temperature and max tokens if needed
-    4. Optional: Set a system prompt
-    5. Upload an image (optional)
-    6. Type your message and press Enter
-    ### Copyright
-    Volkan Kücükbudak
-    """)
